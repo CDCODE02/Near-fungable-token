@@ -1,7 +1,7 @@
 #!/bin/bash
 
-near delete ft.lumala.testnet lumala.testnet
+near delete ft.destiny1.testnet destiny1.testnet
 
-near create-account ft.lumala.testnet --masterAccount lumala.testnet
+near create-account ft.destiny1.testnet --masterAccount destiny1.testnet
 
-near deploy --accountId=ft.lumala.testnet --wasmFile=./res/ft.wasm
+near deploy --accountId=ft.destiny1.testnet --wasmFile=./res/ft.wasm
